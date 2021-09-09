@@ -1,0 +1,99 @@
+#full{
+    top: 50%;
+    right: 90%;
+}
+
+#main{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 400px;
+height: 616px;
+
+background: linear-gradient(180.6deg, #FFFFFF 0.52%, rgba(39, 180, 211, 0.994792) 0.53%, rgba(96, 185, 205, 0) 99.5%), rgba(255, 0, 0, 0.63);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 56px;
+
+} 
+
+#rupee{
+    /* Ellipse 1 */
+left: 40px;
+position: absolute;
+width: 71px;
+height: 73px;
+border-radius: 37px;
+background: #BEE7A5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 27px;
+}
+
+#dollar{
+    /* Ellipse 2 */
+    left: 40px;
+position: absolute;
+width: 71px;
+height: 73px;
+border-radius: 37px;
+background: #BEE7A5;
+font-size: 27px;
+}
+
+#pound{
+    /* Ellipse 3 */
+    left: 40px;
+position: absolute;
+width: 71px;
+height: 73px;
+border-radius: 37px;
+background: #BEE7A5;
+font-size: 27px;
+}
+
+#display1{
+    /* Rectangle 2 */
+
+position: absolute;
+width: 146px;
+height: 73px;
+font-size: 27px;
+background: #BEE7A5;
+border-radius: 37px;
+
+}
+
+#display2{
+    /* Rectangle 3 */
+
+position: absolute;
+width: 146px;
+height: 73px;
+font-size: 27px;
+background: #BEE7A5;
+border-radius: 37px;
+
+}
+
+#display3{
+    /* Rectangle 4 */
+
+position: absolute;
+width: 146px;
+height: 73px;
+font-size: 27px;
+background: #BEE7A5;
+border-radius: 37px;
+
+}
+
+#clear{
+    /* Ellipse 4 */
+    left: 40px;
+    bottom: 30px;
+position: absolute;
+width: 74px;
+height: 73px;
+border-radius: 37px;
+background: #BEE7A5;
+font-size: 27px;
+}

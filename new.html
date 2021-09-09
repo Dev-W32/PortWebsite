@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="new.css">
+
+
+
+    <script>
+        function clr() {
+            document.getElementById('display1').value = "";
+            document.getElementById('display2').value = "";
+            document.getElementById('display3').value = "";
+        }
+
+        function convert(val) {
+            var x = document.getElementById('display1').value;
+            if (val == 1) {
+                document.getElementById('display2').value = x * 0.013;
+            }
+            else {
+                document.getElementById('display3').value = x * 0.0097;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="full">
+        <center>
+            <h1 style="text-align: left;">Currency Convertor </h1>
+            <h3>Enter value in &#8377 and press the $ and &#163 buttons</h3>
+            <table align="center" id="main">
+
+                <tr>
+                    <td><input id="rupee" type="button" value="&#8377" style="padding-left:20px;padding-right:20px" />
+                    </td>
+                    <td colspan="3"><input type="text" id="display1"></td>
+                </tr>
+
+                <tr>
+                    <td><input id="dollar" type="button" value="&#36" onclick="convert('1')"
+                            style="padding-left:20px;padding-right:20px" /></td>
+                    <td colspan="3"><input type="text" id="display2"></td>
+                </tr>
+
+                <tr>
+                    <td><input id="pound" type="button" value="&#163" onclick="convert('2')"
+                            style="padding-left:20px;padding-right:20px" /></td>
+                    <td colspan="3"><input type="text" id="display3"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input id="clear" type="button" value="C" onclick="clr()"
+                            style="padding-left:20px;padding-right:20px" /></td>
+
+                </tr>
+
+            </table>
+        </center>
+
+    </div>
+</body>
+
+</html>
